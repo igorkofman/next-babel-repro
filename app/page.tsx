@@ -1,4 +1,17 @@
-/** Add your relevant code here for the issue to reproduce */
+import Image from "next/image";
+
 export default function Home() {
-  return null;
+  return (
+    <main>
+            <Image
+              src="/vercel.svg"
+              alt="Vercel Logo"
+              className={styles.vercelLogo}
+              width={100}
+              height={24}
+              priority
+            />
+    </main>
+  );
 }
+
